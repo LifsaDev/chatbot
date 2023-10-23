@@ -1,6 +1,7 @@
 import os, sys
 import langchain.llms
 from langchain.vectorstores import Chroma
+from langchain.llms import Replicate
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import PyPDFLoader
 from langchain.embeddings import HuggingFaceEmbeddings
